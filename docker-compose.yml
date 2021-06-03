@@ -1,0 +1,30 @@
+version: '3'
+services:
+    postgres:
+        image: postgres:12
+        container_name: postgres.grafana
+        ports:
+            - 5432:5432
+        expose:
+            - "5432"
+        volumes:
+            - /opt/proyecto52590/data/postgres:/var/lib/postgresql/data
+        environment:
+            POSTGRES_DB: meteo 
+            POSTGRES_USER: danirr
+            POSTGRES_PASSWORD: 52590
+            PGDATA: /var/lib/postgresql/data/pgdata
+    grafana:
+        image: grafana/grafana:7.5.6-ubuntu
+        container_name: grafana
+        user: "472"
+        ports:
+            - 3000:3000
+        expose:
+            - "3000"
+#        links:
+#            - "postgres.grafana:postgres.grafana"
+        volumes:
+            - /opt/proyecto52590/grafana/backup:/var/lib/grafana
+#        depends_on:
+#           - postgres.grafana
