@@ -1,0 +1,9 @@
+Fecha;Alerta;Descripcion;VariablesAfectadas;TotaldeCasos
+2021-09-08 14:09:02.101812;Alerta 01-1; ERROR | Pérdida de datos | El número de eventos registrados no es el esperado;0;0
+2021-09-08 14:09:02.103760;Alerta 01-2; ERROR | Pérdida de datos | El número de variables registradas no es el esperado;0;0
+2021-09-08 14:09:02.105484;Alerta 02; ERROR | Valores NaN | Existen variables con valores NaN no esperados;0;0
+2021-09-08 14:09:02.107272;Alerta 03; ERROR | Existen variables con valores fuera de los límites del rango físico;0;0
+2021-09-08 14:09:02.109081;Alerta 04; ERROR | Existen variables con valores fuera de los límites del rango esperado;0;0
+2021-09-08 14:09:02.110821;Alerta 05; ERROR | La diferencia entre medidas de variables redundantes supera el límite establecido;2;1201
+2021-09-08 14:09:02.112659;Alerta 06; ERROR | La diferencia entre medias móviles supera el límite establecido | Cambio brusco del valor de la variable;5;874
+2021-09-08 14:09:02.114361;Alerta 07; ERROR | La irradiancia (gh) teórica y experimental distan un valor superior al límite establecido;1;4

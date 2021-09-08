@@ -1,0 +1,38 @@
+[
+{
+  "Alertas": [
+  {
+    "Alerta": "Alerta 01-1",
+    "Descripcion": " ERROR | Pérdida de datos | El número de eventos registrados no es el esperado"
+  },
+  {
+    "Alerta": "Alerta 01-2",
+    "Descripcion": " ERROR | Pérdida de datos | El número de variables registradas no es el esperado"
+  },
+  {
+    "Alerta": "Alerta 02",
+    "Descripcion": " ERROR | Valores NaN | Existen variables con valores NaN no esperados"
+  },
+  {
+    "Alerta": "Alerta 03",
+    "Descripcion": " ERROR | Existen variables con valores fuera de los límites del rango físico"
+  },
+  {
+    "Alerta": "Alerta 04",
+    "Descripcion": " ERROR | Existen variables con valores fuera de los límites del rango esperado"
+  },
+  {
+    "Alerta": "Alerta 05",
+    "Descripcion": " ERROR | La diferencia entre medidas de variables redundantes supera el límite establecido"
+  },
+  {
+    "Alerta": "Alerta 06",
+    "Descripcion": " ERROR | La diferencia entre medias móviles supera el límite establecido | Cambio brusco del valor de la variable"
+  },
+  {
+    "Alerta": "Alerta 07",
+    "Descripcion": " ERROR | La irradiancia (gh) teórica y experimental distan un valor superior al límite establecido"
+  }
+]
+}
+]

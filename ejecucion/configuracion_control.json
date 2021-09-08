@@ -1,0 +1,231 @@
+[
+{ "Control_NaN": ["fecha","TempAi1","Bn","Gh","Dh","CelulaTop",
+  "CelulaMid","CelulaBot","TopCal","MidCal","BotCal","Presion",
+  "VVien1","DVien1","OrientSol1","TempAi2","HumRel","Bn2",
+  "G41","Gn","Pirgeo","TempPirgeo","Auxil","VVien2","DVien2",
+  "Lluvia","Limpieza","OrientSol2"]
+},
+
+{ "Control_Variables_Redundantes1": ["TempAi1","Bn","VVien1","DVien1","ElevSol1",
+  "OrientSol1"]
+},
+
+{ "Control_Variables_Redundantes2": ["TempAi2","Bn","VVien2","DVien2","ElevSol2",
+  "OrientSol2"]
+},
+
+{
+  "Control_Rangos_Limites": [
+  {
+    "Variable": "TempAi1",
+    "Limite_fisico_max": "45",
+    "Limite_fisico_min": "-15",
+    "Limite_esperado_max": "42",
+    "Limite_esperado_min": "-12"
+  },
+  {
+    "Variable": "TempAi2",
+    "Limite_fisico_max": "45",
+    "Limite_fisico_min": "-15",
+    "Limite_esperado_max": "42",
+    "Limite_esperado_min": "-12"
+  },
+  {
+    "Variable": "Bn",
+    "Limite_fisico_max": "1200",
+    "Limite_fisico_min": "-4",
+    "Limite_esperado_max": "1100",
+    "Limite_esperado_min": "-2"
+  },
+  {
+    "Variable": "Bn2",
+    "Limite_fisico_max": "1200",
+    "Limite_fisico_min": "-4",
+    "Limite_esperado_max": "1100",
+    "Limite_esperado_min": "-2"
+   },
+   {
+    "Variable": "Gh",
+    "Limite_fisico_max": "1200",
+    "Limite_fisico_min": "-20",
+    "Limite_esperado_max": "1100",
+    "Limite_esperado_min": "-12"
+   },
+   {
+    "Variable": "Dh",
+    "Limite_fisico_max": "800",
+    "Limite_fisico_min": "-20",
+    "Limite_esperado_max": "600",
+    "Limite_esperado_min": "-12"
+  },
+  {
+    "Variable": "Gn",
+    "Limite_fisico_max": "1200",
+    "Limite_fisico_min": "-20",
+    "Limite_esperado_max": "1100",
+    "Limite_esperado_min": "-12"
+  },
+  {
+    "Variable": "G41",
+    "Limite_fisico_max": "1300",
+    "Limite_fisico_min": "-20",
+    "Limite_esperado_max": "1200",
+    "Limite_esperado_min": "-12"
+   },
+   {
+    "Variable": "CelulaTop",
+    "Limite_fisico_max": "1100",
+    "Limite_fisico_min": "-2",
+    "Limite_esperado_max": "1100",
+    "Limite_esperado_min": "-1"
+  },
+  {
+    "Variable": "CelulaMid",
+    "Limite_fisico_max": "1100",
+    "Limite_fisico_min": "-2",
+    "Limite_esperado_max": "1100",
+    "Limite_esperado_min": "-1"
+  },
+  {
+    "Variable": "CelulaBot",
+    "Limite_fisico_max": "1100",
+    "Limite_fisico_min": "-2",
+    "Limite_esperado_max": "1100",
+    "Limite_esperado_min": "-1"
+  },
+  {
+    "Variable": "Presion",
+    "Limite_fisico_max": "1000",
+    "Limite_fisico_min": "870",
+    "Limite_esperado_max": "965",
+    "Limite_esperado_min": "880"
+  },
+  {
+    "Variable": "VVien1",
+    "Limite_fisico_max": "20",
+    "Limite_fisico_min": "0",
+    "Limite_esperado_max": "10",
+    "Limite_esperado_min": "0"
+  },
+  {
+    "Variable": "VVien2",
+    "Limite_fisico_max": "20",
+    "Limite_fisico_min": "0",
+    "Limite_esperado_max": "10",
+    "Limite_esperado_min": "0"
+  },
+  {
+    "Variable": "DVien1",
+    "Limite_fisico_max": "360",
+    "Limite_fisico_min": "0",
+    "Limite_esperado_max": "360",
+    "Limite_esperado_min": "0"
+  },
+  {
+    "Variable": "DVien2",
+    "Limite_fisico_max": "360",
+    "Limite_fisico_min": "0",
+    "Limite_esperado_max": "360",
+    "Limite_esperado_min": "0"
+  },
+  {
+    "Variable": "HumRel",
+    "Limite_fisico_max": "100",
+    "Limite_fisico_min": "0",
+    "Limite_esperado_max": "100",
+    "Limite_esperado_min": "4"
+  },
+  {
+    "Variable": "ElevSol1",
+    "Limite_fisico_max": "75",
+    "Limite_fisico_min": "-1",
+    "Limite_esperado_max": "75",
+    "Limite_esperado_min": "-1"
+  },
+  {
+    "Variable": "ElevSol2",
+    "Limite_fisico_max": "75",
+    "Limite_fisico_min": "-1",
+    "Limite_esperado_max": "75",
+    "Limite_esperado_min": "-1"
+  },
+  {
+    "Variable": "OrientSol1",
+    "Limite_fisico_max": "315",
+    "Limite_fisico_min": "35",
+    "Limite_esperado_max": "315",
+    "Limite_esperado_min": "35"
+  },
+  {
+    "Variable": "OrientSol2",
+    "Limite_fisico_max": "315",
+    "Limite_fisico_min": "35",
+    "Limite_esperado_max": "315",
+    "Limite_esperado_min": "35"
+  },
+  {
+    "Variable": "Pirgeo",
+    "Limite_fisico_max": "700",
+    "Limite_fisico_min": "0",
+    "Limite_esperado_max": "500",
+    "Limite_esperado_min": "0"
+  },
+  {
+    "Variable": "TempPirgeo",
+    "Limite_fisico_max": "45",
+    "Limite_fisico_min": "-10",
+    "Limite_esperado_max": "40",
+    "Limite_esperado_min": "-5"
+  },
+  {
+    "Variable": "Lluvia",
+    "Limite_fisico_max": "100",
+    "Limite_fisico_min": "0",
+    "Limite_esperado_max": "50",
+    "Limite_esperado_min": "0"
+  }
+]
+},
+
+
+{
+  "Control_MediaMovil": [
+  {
+    "Variable": "TempAi1",
+    "Ventana": "5",
+    "Limite": "2"
+  },
+  {
+    "Variable": "TempAi2",
+    "Ventana": "5",
+    "Limite": "2"
+  },
+  {
+    "Variable": "Bn",
+    "Ventana": "2",
+    "Limite": "10"
+  },
+  {
+    "Variable": "Bn2",
+    "Ventana": "2",
+    "Limite": "10"
+  },
+  {
+    "Variable": "Gh",
+    "Ventana": "2",
+    "Limite": "10"
+  },
+  {
+    "Variable": "Dh",
+    "Ventana": "2",
+    "Limite": "10"
+  },
+  {
+    "Variable": "Gn",
+    "Ventana": "2",
+    "Limite": "10"
+  }
+]
+}
+
+]
